@@ -17,20 +17,21 @@
             -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
             -webkit-transform: rotate(315deg);
             transform: rotate(315deg);
+            height: 8px;
         }
 
         .faq input[type="checkbox"]:checked+label {
             display: block;
             background: rgba(255, 255, 255, 255) !important;
             color: #4f7351;
-            transition: height 0.8s;
+            transition: height 0.9s;
             -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
             margin-top: 25px;
         }
 
         .faq input[type='checkbox']:not(:checked)+label {
             display: block;
-            transition: height 0.8s;
+            transition: height 0.9s;
             padding: 25px 0px 58px;
             -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
             height: 35px;
@@ -48,7 +49,7 @@
     </div>
     <div class="bg-[url('./img/bg.png')] bg-no-repeat bg-auto w-[155px] h-[118px] absolute top-[85px] left-[45px] hidden 2xl:block xl:block lg:block md:block"
         style="transform: matrix(-1, 0, 0, 1, 0, 0)"></div>
-    <div class="container mx-auto px-[10px] 2xl:px-[128px] xl:px-[80px] lg:px-[80px] md:px-[80px] mt-[35px]">
+    <div class="container mx-auto px-[10px] 2xl:px-[128px] xl:px-0 lg:px-0 md:px-0 mt-[35px]">
         <ul
             class="m-0 p-0 flex items-center 2xl:justify-center xl:justify-center lg:justify-center md:justify-center whitespace-nowrap 2xl:whitespace-normal xl:whitespace-normal lg:whitespace-normal md:whitespace-normal overflow-scroll 2xl:overflow-auto xl:overflow-auto  lg:overflow-auto  md:overflow-auto ">
             <li><a class="text-[#4982BD] text-[14px] leading-[22px] font-medium" href="#">Как работает</a></li>
@@ -82,7 +83,7 @@
 
         <div
             class="flex justify-center items-center mt-[45px] 2xl:mt-[96px] xl:mt-[96px] lg:mt-[96px] md:mt-[96px] relative">
-            <img class="w-[116px] h-[155px] absolute [24.5%] 2xl:left-[25.5%] top-[-11%] xl:left-[21.5%] xl:top-[-17%] z-[-9] hidden 2xl:block xl:block lg:block md:block"
+            <img class="w-[116px] h-[155px] absolute md:left-[9%] md:top-[-17%] lg:left-[19%] lg:top-[-17%] 2xl:left-[25.5%] xl:left-[25.5%] xl:top-[-17%] z-[-9] hidden 2xl:block xl:block lg:block md:block"
                 src="./img/bg-3.png" alt="bg-3.png">
             <img class="w-[76px] h-[58px] absolute left-[-10px] top-[-65px] z-[-9] 2xl:hidden xl:hidden lg:hidden md:hidden"
                 src="./img/mobile-pattern.png" alt="mobile-pattern.png">
@@ -94,7 +95,7 @@
             <img class="2xl:hidden xl:hidden lg:hidden md:hidden w-full 2xl:max-w-full xl:max-w-full lg:max-w-full md:max-w-full 2xl:w-[694px] xl:w-[694px] lg:w-[694px] md:w-[694px] h-auto"
                 style="filter:drop-shadow(0px 100px 80px rgba(6, 84, 137, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(6, 84, 137, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(6, 84, 137, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(6, 84, 137, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(6, 84, 137, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(6, 84, 137, 0.0196802))"
                 src="./img/macbook-mobile.svg" alt="macbook.png">
-            <img class="w-[155px] h-[118px] absolute 2xl:right-[24%] xl:right-[21.5%] bottom-[-6%] z-[-9] hidden 2xl:block xl:block lg:block md:block"
+            <img class="w-[155px] h-[118px] absolute 2xl:right-[24%] xl:right-[24%] lg:right-[18%] lg:bottom-[-6%] md:right-[7%] md:bottom-[-6%] z-[-9] hidden 2xl:block xl:block lg:block md:block"
                 src="./img/bg-4.png" alt="bg-4.png">
             <img class="w-[76px] h-[58px] absolute right-[10px] bottom-[-55px] z-[-9] 2xl:hidden xl:hidden lg:hidden md:hidden"
                 src="./img/mobile-pattern3.png" alt="mobile-pattern3.png">
@@ -387,7 +388,7 @@
                         class="text-[#4982BD] border-t-[1px] border-dashed border-[#4982BD]">графики Форекс онлайн</a>
                     для каждого финансового инструмента</p>
                 <div
-                    class="flex text-[14px] font-normal leading-[22px] text-[#1E7BE2] mt-[15px] 2xl:mt-[10px] xl:mt-[10px] lg:mt-[10px] md:mt-[10px]">
+                    class="flex text-[14px] font-normal leading-[22px] text-[#1E7BE2] mt-[15px] 2xl:mt-[20px] xl:mt-[20px] lg:mt-[20px] md:mt-[20px]">
                     Подробнее <img class="w-[16px] h-[22px]" src="./img/chevron.svg" alt="chevron.svg"></div>
             </div>
             <div
@@ -623,7 +624,7 @@
                 <input id='faq-a' class="hidden" type='checkbox'>
                 <label class="relative overflow-hidden cursor-pointer" for='faq-a'>
                     <span
-                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px]">
+                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px] min-h-[58px] 2xl:min-h-min xl:min-h-min lg:min-h-min md:min-h-min">
                         Стоит ли ждать большой и сиюминутной прибыли?</span>
                     <span
                         class='faq-arrow w-[9px] h-[9px] transition-transform border-solid border-t-[2px] border-r-[2px] border-[#4982BD] float-left relative top-[-48px] left-[0px] rotate-[135deg] 2xl:top-[-20px] xl:top-[-20px] lg:top-[-20px] md:top-[-20px] 2xl:left-0 xl:left-0 lg:left-0 md:left-0'>
@@ -639,7 +640,7 @@
                 <input id='faq-b' class="hidden" type='checkbox'>
                 <label class="relative overflow-hidden cursor-pointer" for='faq-b'>
                     <span
-                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px]">
+                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px] min-h-[58px] 2xl:min-h-min xl:min-h-min lg:min-h-min md:min-h-min">
                         Можно ли торговать на Форекс без риска и вложений?</span>
                     <span
                         class='faq-arrow w-[9px] h-[9px] transition-transform border-solid border-t-[2px] border-r-[2px] border-[#4982BD] float-left relative top-[-48px] left-[0px] rotate-[135deg] 2xl:top-[-20px] xl:top-[-20px] lg:top-[-20px] md:top-[-20px] 2xl:left-0 xl:left-0 lg:left-0 md:left-0'>
@@ -654,7 +655,7 @@
                 <input id='faq-c' class="hidden" type='checkbox'>
                 <label class="relative overflow-hidden cursor-pointer border-solid" for='faq-c'>
                     <span
-                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px]">
+                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px] min-h-[58px] 2xl:min-h-min xl:min-h-min lg:min-h-min md:min-h-min">
                         Какие бывают программы торговли на Форекс?</span>
                     <span
                         class='faq-arrow w-[9px] h-[9px] transition-transform border-solid border-t-[2px] border-r-[2px] border-[#4982BD] float-left relative top-[-48px] left-[0px] rotate-[135deg] 2xl:top-[-20px] xl:top-[-20px] lg:top-[-20px] md:top-[-20px] 2xl:left-0 xl:left-0 lg:left-0 md:left-0'>
@@ -669,7 +670,7 @@
                 <input id='faq-d' class="hidden" type='checkbox'>
                 <label class="relative overflow-hidden cursor-pointer" for='faq-d'>
                     <span
-                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px]">
+                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px] min-h-[58px] 2xl:min-h-min xl:min-h-min lg:min-h-min md:min-h-min">
                         Какие бывают программы торговли на Форекс?</span>
                     <span
                         class='faq-arrow w-[9px] h-[9px] transition-transform border-solid border-t-[2px] border-r-[2px] border-[#4982BD] float-left relative top-[-48px] left-[0px] rotate-[135deg] 2xl:top-[-20px] xl:top-[-20px] lg:top-[-20px] md:top-[-20px] 2xl:left-0 xl:left-0 lg:left-0 md:left-0'>
@@ -684,7 +685,7 @@
                 <input id='faq-e' class="hidden" type='checkbox'>
                 <label class="relative overflow-hidden cursor-pointer" for='faq-e'>
                     <span
-                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px]">
+                        class="block faq-heading font-medium not-italic pl-[20px] 2xl:pl-0 xl:pl-0 lg:pl-0 md:pl-0 text-[16px] leading-[29px] text-[#363946] 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] 2xl:indent-[26px] xl:indent-[26px] lg:indent-[26px] md:indent-[26px] min-h-[58px] 2xl:min-h-min xl:min-h-min lg:min-h-min md:min-h-min">
                         Может ли ПАММ-трейдер снять мои инвестированные средства?</span>
                     <span
                         class='faq-arrow w-[9px] h-[9px] transition-transform border-solid border-t-[2px] border-r-[2px] border-[#4982BD] float-left relative top-[-48px] left-[0px] rotate-[135deg] 2xl:top-[-20px] xl:top-[-20px] lg:top-[-20px] md:top-[-20px] 2xl:left-0 xl:left-0 lg:left-0 md:left-0'>
